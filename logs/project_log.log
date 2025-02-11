@@ -5,3 +5,25 @@
 2025-02-10 20:02:17.487 | ERROR    | __main__:log_example:56 - This is an example error message.
 2025-02-10 20:02:17.488 | INFO     | __main__:main:68 - View the log output at logs\project_log.log
 2025-02-10 20:02:17.488 | INFO     | __main__:main:69 - EXITING utils_logger.py.
+2025-02-10 20:19:16.300 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-10 20:19:16.300 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-10 20:19:16.301 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05\datafun-05-sql\data\db.sqlite
+2025-02-10 20:19:16.302 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-10 20:19:16.318 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-10 20:19:16.319 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\datafun-05\datafun-05-sql\sql_create\03_insert_records.sql: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05\\datafun-05-sql\\sql_create\\03_insert_records.sql'
+2025-02-10 20:19:16.319 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05\\datafun-05-sql\\sql_create\\03_insert_records.sql'
+2025-02-10 20:19:16.320 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-10 20:20:14.535 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-10 20:20:14.535 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-10 20:20:14.537 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05\datafun-05-sql\data\db.sqlite
+2025-02-10 20:20:14.545 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-10 20:20:14.553 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-10 20:20:14.561 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05\datafun-05-sql\sql_create\03_insert_records.sql
+2025-02-10 20:20:14.561 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-02-10 20:20:14.561 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-10 20:20:19.255 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-10 20:20:19.256 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-10 20:20:19.257 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05\datafun-05-sql\data\db.sqlite
+2025-02-10 20:20:19.273 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05\datafun-05-sql\sql_features\01_new_column_pub_age.sql
+2025-02-10 20:20:19.273 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-02-10 20:20:19.274 | INFO     | __main__:main:63 - Database connection closed.
