@@ -15,14 +15,12 @@ Using venv in Visual Studio Code 1 2 A virtual environment (venv) in Python is a
 To create a virtual environment in Visual Studio Code (VS Code), you can use the built-in venv module. Open the terminal in VS Code and run the following command:
 
 macOS/Linux
-'''
 python3 -m venv .venv
-'''
+
 
 Windows
-'''
 python -m venv .venv 
-'''
+
 This command creates a virtual environment named .venv in your project directory 1 .
 
 Activating the Virtual Environment
