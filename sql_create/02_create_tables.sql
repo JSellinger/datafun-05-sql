@@ -15,3 +15,4 @@ CREATE TABLE books (
     author_id TEXT,             -- Foreign key linking to authors
     FOREIGN KEY (author_id) REFERENCES authors (author_id) -- Relationship with authors
 );
+
